@@ -14,6 +14,7 @@ const logger = createLogger({
     transports: [
         new transports.Console(),
         new transports.File({ filename: 'error.log'}),
+        
     ]
 })
 
