@@ -39,7 +39,7 @@ class CrudRepository {
             throw error;
         }
     }
-    
+
     async getAll() {
         try {
             const response = await this.model.findAll();
@@ -63,7 +63,7 @@ class CrudRepository {
             throw error;
         }
     }
-    
+
 }
 
 module.exports = CrudRepository;
